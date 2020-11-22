@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body{
+				font-family: Helvetica;
+			}
+			#cuenta{
+				border: 5px solid black;
+				margin: 2em;
+			}
+			#cuenta h2{
+				text-align: center;
+			}
+			#cuenta p{
+				padding-left: 1em;
+				margin-block-start: 0;
+				margin-block-end: 0.25em;
+			}
+			#cuenta input{
+				margin-left: 0.5em;
+			}
+
+			#un_solo_renglon{
+				display: flex;
+				flex-direction: row;
+			}
+			#boton_enviar3{
+				width: 53.8px;
+				height: 21px;
+			}
+
+			#boton_enviar,
+			#boton_enviar2,
+			#boton_enviar3,
+			#boton_enviar4{
+				margin-bottom: 0.5em;
+			}
+		</style>
+		<title>Cuentas de físico química</title>
+	</head>
+	<body>
+		<h1>Cuantas de físico química</h1>
+		<p>En esta pagina vamos a practicar programación</p>
+		<p>Elegi la opción que necesites y usala <br></p>
+				<div id="cuenta">		
+					<h2>Cuenta calorica</h2>
+					<p>¿Cuál es la masa?<input type="text" id="masa"></p>
+					<p>¿Cuál es el calor específico?<input type="text" id="calor_especifico"></p>
+					<p>¿Cual es la temperatura inicial?<input type="text" id="temperatura_inicial"></p>
+					<p>¿Cual es la temperatura final?<input type="text" id="temperatura_final"></p>
+					<input type="button" id="boton_enviar" value="Enviar">
+				</div>
+				<div id="cuenta">
+					<h2>Cuenta de variación de temperatura</h2>
+						<p>¿Cuál es la masa?<input type="text" id="masa2"></p>
+						<p>¿Cuántas caloria absorbe?<input type="text" id="absorcion_calorias"></p>
+						<p>¿Cuál es el calor específico?<input type="text" id="calor_especifico2"></p>
+						<input type="button" value="Enviar" id="boton_enviar2">
+				</div>
+				<div id="cuenta">
+						<h2>Cuenta para pasar de °F a °C</h2>
+					<div id="un_solo_renglon">
+						<p>¿Cuál es la temepatura en °F?<input type="text" id="temp_f"></p>
+						<input type="button" value="Enviar" id="boton_enviar3">
+					</div>
+				</div>
+				<div id="cuenta">
+						<h2>Cuenta para pasar de °C a °F</h2>
+					<div id="un_solo_renglon">
+						<p>¿Cuál es la temperatura en °C?<input type="text" id="temp_c"></p>
+						<input type="button" value="Enviar" id="boton_enviar4">
+					</div>
+				</div>
+		<script src="programación.js"></script>
+	</body>
+</html>
