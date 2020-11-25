@@ -37,7 +37,7 @@ function cuentaCalorica()
     console.log(ti);
     console.log(tf);
     //Termina codigo temporal
-    alert("El resultado es " + q);
+    alert("El resultado es " + q + ".\nLa cuenta es masa . calor especifico . (temperatura final - temperatura inicial).");
 }
 
 function cuentaVarTemp()
