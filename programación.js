@@ -31,6 +31,12 @@ function cuentaCalorica()
     var ti = valor_temp_inicial.value;
     var tf = valor_temp_final.value;
     var q = m*ce*(tf-ti);
+    //Empieza codigo temporal
+    console.log(m);
+    console.log(ce);
+    console.log(ti);
+    console.log(tf);
+    //Termina codigo temporal
     alert("El resultado es " + q);
 }
 
