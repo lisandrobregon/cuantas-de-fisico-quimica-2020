@@ -1,0 +1,28 @@
+body{
+	font-family: Helvetica;
+}
+#cuenta{
+	border: 5px solid black;
+	margin: 2em;
+}
+#cuenta h2{
+	text-align: center;
+}
+#cuenta p{
+	padding-left: 1em;
+	margin-block-start: 0;
+	margin-block-end: 0.25em;
+}
+#cuenta input{
+	margin-left: 0.5em;
+}
+#un_solo_renglon{
+display: flex;
+flex-direction: row;
+}
+#boton_enviar,
+#boton_enviar2,
+#boton_enviar3,
+#boton_enviar4{
+	margin-bottom: 0.5em;
+}
